@@ -9,8 +9,9 @@ buildscript {
 }
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+    compileSdkVersion 23
+    buildToolsVersion "24.0.1"
+
     defaultConfig {
         applicationId "demo.moss.com.aug30demo"
         minSdkVersion 19
