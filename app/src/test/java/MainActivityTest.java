@@ -28,7 +28,7 @@ public class MainActivityTest {
     @Before
     public void setup() {
         // Convenience method to run MainActivity through the Activity Lifecycle methods:
-        // onCreate(...) => onStart() => onPostCreate(...) => onResume()
+        //onCreate(...) => onStart() => onPostCreate(...) => onResume()
         activity = Robolectric.setupActivity(MainActivity.class);
     }
 
