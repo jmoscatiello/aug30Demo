@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 
-import tools.fastlane.screengrab.Screengrab;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * Created by josephmoscatiello1 on 16-08-20.
@@ -14,11 +14,13 @@ import tools.fastlane.screengrab.Screengrab;
 public class SecondActivityTest {
 
     @Test
-    public void titleIsCorrect() throws Exception {
+    public void titleIsCorrect(){
         SecondActivity activity = Robolectric.setupActivity(SecondActivity.class);
 
-        Screengrab.screenshot("beforeFabClick");
+        assertNotNull(activity);
 
-        //uuassertTrue(activity.getTitle().toString().equals("Deckard"));
+        //Screengrab.screenshot("beforeFabClick");
+
+        //assert(activity.getTitle().toString().equals("Deckard"));
     }
 }
