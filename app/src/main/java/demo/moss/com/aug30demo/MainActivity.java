@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
         button = (Button) findViewById(R.id.button);
         text = (TextView) findViewById(R.id.text);
 
+        //this is an event listener
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
