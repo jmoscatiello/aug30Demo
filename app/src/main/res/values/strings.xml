@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Aug30Demo</string>
     <string name="world">Hello World</string>
+    <string name="second_activity">Second Screen</string>
     <string name="universe">Hello Universe again</string>
 </resources>
